@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/phone_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT PHONE"
+        android:padding= "5dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/manufacturer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manufacturer"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/model_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Model Name"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/model_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Model Number"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/ram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAM"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Storage"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/battery_charge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Battery Charge Percent"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/android_ver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Version"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/camera_megapixel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera Megapixel"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/camera_aperture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera Aperture"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/cpu_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Processor CPU Details"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/gpu_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPU Information"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/imei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMEI"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/live_sensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="LIVE SENSOR READING"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GPS"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/gyroscope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gyroscope"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/barometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barometer"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/accelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accelerometer"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/rotation_Vector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotation Vector"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/proximity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proximity"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/ambient_light_sensor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ambient Light Sensor"
+                android:padding= "5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
